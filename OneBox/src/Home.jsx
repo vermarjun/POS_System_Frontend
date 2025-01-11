@@ -74,11 +74,11 @@ const FeatureCard = styled.div`
     font-weight: 600;
     color: #333;
     margin-bottom: 10px;
-  }
-
-  p {
-    font-size: 1rem;
-    color: #555;
+    }
+    
+    p {
+      font-size: 1rem;
+      color: #555;
   }
 `;
 
@@ -121,10 +121,9 @@ const SectionHeadings = styled.h2`
 `;
 
 const Description = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #555;
   line-height: 1.6;
-
   @media (max-width: 768px) {
     font-size: 1rem;
   }
@@ -212,8 +211,7 @@ const HomePage = () => {
       <Content>
         <SectionHeadings>What is AnveshanBox?</SectionHeadings>
         <Description>
-          Simplify payments, get AI-driven insights, and manage inventory to
-          enhance business growth.
+        <strong> Anveshan Box </strong> allows your business to accept payments from customers and keep track of sales. It's software also helps you handle online orders and inventory, reach your customers, and manage your team.
         </Description>
       </Content>
       <ImageContainer>
@@ -221,6 +219,9 @@ const HomePage = () => {
           src="https://cdn.shopify.com/b/shopify-brochure2-assets/8c8854d3a0c367a75c42aa12ef57bd44.webp"
           alt="AnveshanBox Illustration"
         />
+        <p style={{ fontSize: "12px", color: "#555", marginTop: "8px", textAlign: "left" }}>
+          *This image is AI generated for reference purposes and does not represent a real product.
+        </p>
       </ImageContainer>
     </SectionWrapper>
 
@@ -241,7 +242,12 @@ const HomePage = () => {
         <FeatureCard>
           <img src="https://img.freepik.com/free-vector/business-people-with-magnifying-glass-charts_1262-18918.jpg?t=st=1735974273~exp=1735977873~hmac=424abb38d5e22efb9d5e6904d7ce39c0448c6ffa33caf8aa10acac032e4562a3&w=740" />
           <h3>Enhanced Business Visibility</h3>
-          <p>Track sales trends and low-stock notifications.</p>
+          <p>Heat maps that track sales and show latest sale data to customers for real time product availability</p>
+        </FeatureCard>
+        <FeatureCard>
+          <img src="https://waysandmeanstechnology.com/blog/wp-content/uploads/2023/01/Smart-Inventory-Management-System-by-Ways-and-Means-Technology-1-400x250.jpg" />
+          <h3>Track Your Inventory</h3>
+          <p>Track changes to your inventory and get low-stock notifications.</p>
         </FeatureCard>
       </FeatureList>
     </FeatureSection>
