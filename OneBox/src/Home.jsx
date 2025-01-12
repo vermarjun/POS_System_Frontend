@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from "framer-motion"; // For animations
-import HeroSection from './HeroSection';
+// import HeroSection from './HeroSection';
 
 
 
@@ -161,51 +161,7 @@ const FooterSection = styled.footer`
 const HomePage = () => {
   return (
     <div>
-<HeroSection/>
-{/* <HeroSection>
-      <HeroHeading
-        initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-      >
-        Elevate Your <span>Rural Business</span> Today
-      </HeroHeading>
-      <HeroTagline
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 1 }}
-      >
-        Empower your business with <strong>SmartBiz Box</strong>—seamless
-        payments, AI-driven insights, and efficient inventory tracking.
-      </HeroTagline>
-      <CTAButtons>
-        <CTAButton
-          bgColor="#007bff"
-          hoverColor="#0056b3"
-          href="/sign-up"
-          whileHover={{ scale: 1.1 }}
-        >
-          Get Started
-        </CTAButton>
-        <CTAButton
-          bgColor="#28a745"
-          hoverColor="#218838"
-          href="/learn-more"
-          whileHover={{ scale: 1.1 }}
-        >
-          Learn More
-        </CTAButton>
-        <CTAButton
-          bgColor="#fd7e14"
-          hoverColor="#e76c05"
-          href="/explore-solutions"
-          whileHover={{ scale: 1.1 }}
-        >
-          Explore Solutions
-        </CTAButton>
-      </CTAButtons>
-      <AnimatedOverlay />
-    </HeroSection> */}
+{/* <HeroSection/> */}
 {/* for overview section */}
 <SectionWrapper>
       <Content>
