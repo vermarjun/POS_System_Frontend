@@ -8,10 +8,10 @@ const AnveshanBox = () => {
       <PageContainer>
         <ContentSection>
           <Heading>AnveshanBox</Heading>
-          <Tagline>Powered by the CODAHOLICS Team</Tagline>
+          <Tagline>Developed by the CODAHOLICS Team</Tagline>
           <Description>
             Sell in-store, at retail events, pop-up stores, and even online.
-            With all sales channels in one POS software, AnveshanBox manages
+            With all sales channels in one software, AnveshanBox manages
             all aspects of your retail business.
           </Description>
           <FeaturesList>
