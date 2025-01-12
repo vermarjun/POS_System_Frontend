@@ -18,7 +18,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Empower your business with <strong>AnveshanBox</strong>—seamless
+          Empower your business with <strong>LakshmiBox</strong>—seamless
           payments, AI-driven insights, and efficient inventory tracking.
         </HeroTagline>
         <CTAButtons>

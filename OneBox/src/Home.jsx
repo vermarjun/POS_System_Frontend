@@ -165,9 +165,9 @@ const HomePage = () => {
 {/* for overview section */}
 <SectionWrapper>
       <Content>
-        <SectionHeadings>What is AnveshanBox?</SectionHeadings>
+        <SectionHeadings>What is LakshmiBox?</SectionHeadings>
         <Description>
-        <strong> Anveshan Box </strong> allows your business to accept payments from customers and keep track of sales. It's software also helps you handle online orders and inventory, reach your customers, and manage your team.
+        <strong> LakshmiBox </strong> allows your business to accept payments from customers and keep track of sales. It's software also helps you handle online orders and inventory, reach your customers, and manage your team.
         </Description>
       </Content>
       <ImageContainer>

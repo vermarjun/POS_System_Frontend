@@ -7,7 +7,7 @@ const AnveshanBox = () => {
       {/* First Section */}
       <PageContainer>
         <ContentSection>
-          <Heading>AnveshanBox</Heading>
+          <Heading>LakshmiBox</Heading>
           <Tagline>Developed by the CODAHOLICS Team</Tagline>
           <Description>
             Sell in-store, at retail events, pop-up stores, and even online.
